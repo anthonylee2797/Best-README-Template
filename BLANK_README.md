@@ -1,13 +1,13 @@
 <!--
 *** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
+*** make this better, please fork the TotalRecoilJS and create a pull request or simply open
 *** an issue with the tag "enhancement".
 *** Thanks again! Now go create something AMAZING! :D
 ***
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo, twitter_handle, email
+*** oslabs-beta, TotalRecoilJS, TotalRecoil_JS, totalrecoiljs@gmail.com
 -->
 
 
@@ -34,23 +34,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/oslabs-beta/TotalRecoilJS">
+    <img src="images/Total Recoilv2.png" alt="Logo" width="200" >
   </a>
 
-  <h3 align="center">YOUR_TITLE</h3>
+  <h3 align="center">TotalRecoilJS</h3>
 
   <p align="center">
-    YOUR_SHORT_DESCRIPTION
+    A tool for Recoil developers
     <br />
-    <a href="https://github.com/github_username/repo"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/oslabs-beta/TotalRecoilJS"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo">View Demo</a>
+    <a href="https://github.com/oslabs-beta/TotalRecoilJS/blob/master/README.md">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Report Bug</a>
+    <a href="https://github.com/oslabs-beta/TotalRecoilJS/issues">Report A Bug</a>
     ·
-    <a href="https://github.com/github_username/repo/issues">Request Feature</a>
+    <a href="https://github.com/oslabs-beta/TotalRecoilJS/issues">Request Feature</a>
   </p>
 </p>
 
@@ -78,16 +78,20 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
+Total RecoilJS is a tool created to help developers visualize and track their Recoil state via a Chrome extension.
+
+<!-- Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo`, `twitter_handle`, `email`
+`oslabs-beta`, `TotalRecoilJS`, `TotalRecoil_JS`, `totalrecoiljs@gmail.com` -->
 
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [React](https://reactjs.org/)
+* [D3](https://d3js.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+
 
 
 
@@ -98,22 +102,30 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+Install React DevTools
 ```sh
-npm install npm@latest -g
+https://chrome.google.com/webstore/detail/react-developer-tools/
 ```
 
 ### Installation
  
-1. Clone the repo
+1. Clone the TotalRecoilJS
 ```sh
-git clone https://github.com/github_username/repo.git
+git clone https://github.com/oslabs-beta/TotalRecoilJS.git
 ```
 2. Install NPM packages
 ```sh
 npm install
 ```
+3. Start development server
+```sh
+npm run dev
+```
+4. Unpack to Google Chrome Extensions 
+
+5. Navigate to Extensions -> load unpacked -> Select Total-Recoil/build/extension
+
+![](/images/install.gif)
 
 
 
@@ -129,7 +141,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/oslabs-beta/TotalRecoilJS/issues) for a list of proposed features (and known issues).
 
 
 
@@ -137,12 +149,6 @@ See the [open issues](https://github.com/github_username/repo/issues) for a list
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 
 
@@ -154,20 +160,26 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## Authors
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+<strong>Anthony Lee - [@linkedIn](https://www.linkedin.com/in/anthony-lee27/) - [@GitHub](https://github.com/anthonylee2797)
 
-Project Link: [https://github.com/github_username/repo](https://github.com/github_username/repo)
+<strong>Khizar Rehman - [@linkedIn]() - [@GitHub](https://github.com/keyz-man)
+
+<strong>Silvia Miranda - [@linkedIn](https://www.linkedin.com/in/silviakempmiranda/) - [@GitHub](https://github.com/silvia-miranda)
+
+<strong>Zi Hao He - [@linkedIn](https://www.linkedin.com/in/zi-hao-he/) - [@GitHub](https://github.com/exquizzle)
+
+<strong>Kevin Ruan - [@linkedIn](https://www.linkedin.com/in/kevin-ruan-7799711b1/) - [@GitHub](https://github.com/kevinr108)
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+Denys Dekhtiarenko (Advisor) - [@linkedIn](https://www.linkedin.com/in/denysdekhtiarenko/) - [@GitHub](https://github.com/denskarlet)
+
+
 
 
 
