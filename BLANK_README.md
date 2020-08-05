@@ -23,10 +23,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -43,14 +40,11 @@
   <p align="center">
     A tool for Recoil developers
     <br />
-    <a href="https://github.com/oslabs-beta/TotalRecoilJS"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/oslabs-beta/TotalRecoilJS"><strong>Download Chrome Extension »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/oslabs-beta/TotalRecoilJS/blob/master/README.md">View Demo</a>
-    ·
-    <a href="https://github.com/oslabs-beta/TotalRecoilJS/issues">Report A Bug</a>
-    ·
-    <a href="https://github.com/oslabs-beta/TotalRecoilJS/issues">Request Feature</a>
+    <a href="https://github.com/oslabs-beta/TotalRecoilJS/blob/master/README.md">View Demo  App (Recoil Application)</a>
+    
   </p>
 </p>
 
@@ -65,10 +59,8 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
-* [Contact](#contact)
+* [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
 
 
@@ -76,13 +68,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
 
 Total RecoilJS is a tool created to help developers visualize and track their Recoil state via a Chrome extension.
 
-<!-- Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`oslabs-beta`, `TotalRecoilJS`, `TotalRecoil_JS`, `totalrecoiljs@gmail.com` -->
 
 
 ### Built With
@@ -98,7 +87,7 @@ Total RecoilJS is a tool created to help developers visualize and track their Re
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
@@ -109,7 +98,7 @@ https://chrome.google.com/webstore/detail/react-developer-tools/
 
 ### Installation
  
-1. Clone the TotalRecoilJS
+1. Clone the TotalRecoilJS github
 ```sh
 git clone https://github.com/oslabs-beta/TotalRecoilJS.git
 ```
@@ -123,7 +112,7 @@ npm run dev
 ```
 4. Unpack to Google Chrome Extensions 
 
-5. Navigate to Extensions -> load unpacked -> Select Total-Recoil/build/extension
+5. Navigate to Extensions -> Load Unpacked -> Select Total-Recoil/build/extension
 
 ![](/images/install.gif)
 
@@ -132,16 +121,22 @@ npm run dev
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Visualize your component tree and see which components are subscribed to which atoms. When you click on an atom’s name, all components that are subscribed to that piece of state will light up.
 
+Troubleshoot by seeing the current state held in each atom. 
 
+<insert gif of atom state>
 
-<!-- ROADMAP -->
-## Roadmap
+View list of previous states to track changes. 
+On the history tab, you can see up to 10 previous state snapshots.
 
-See the [open issues](https://github.com/oslabs-beta/TotalRecoilJS/issues) for a list of proposed features (and known issues).
+<insert gif of history>
+
+ View all selector-atom subscriptions using our interactive sunburst and click on any selector to see all subscribed atoms.
+
+<insert gif of sunburst image>
+
 
 
 
@@ -164,7 +159,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <strong>Anthony Lee - [@linkedIn](https://www.linkedin.com/in/anthony-lee27/) - [@GitHub](https://github.com/anthonylee2797)
 
-<strong>Khizar Rehman - [@linkedIn]() - [@GitHub](https://github.com/keyz-man)
+<strong>Khizar Rehman - [@linkedIn](https://www.linkedin.com/in/khizar-rehman-a125711b4/) - [@GitHub](https://github.com/keyz-man)
 
 <strong>Silvia Miranda - [@linkedIn](https://www.linkedin.com/in/silviakempmiranda/) - [@GitHub](https://github.com/silvia-miranda)
 
@@ -177,7 +172,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-Denys Dekhtiarenko (Advisor) - [@linkedIn](https://www.linkedin.com/in/denysdekhtiarenko/) - [@GitHub](https://github.com/denskarlet)
+Denys Dekhtiarenko - [@linkedIn](https://www.linkedin.com/in/denysdekhtiarenko/) - [@GitHub](https://github.com/denskarlet)
 
 
 
@@ -187,15 +182,14 @@ Denys Dekhtiarenko (Advisor) - [@linkedIn](https://www.linkedin.com/in/denysdekh
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-shield]: https://github.com/oslabs-beta/TotalRecoilJS/graphs/contributors
+[contributors-url]: https://github.com/oslabs-beta/TotalRecoilJS/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/oslabs-beta/TotalRecoilJS/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
